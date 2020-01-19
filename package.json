@@ -1,0 +1,27 @@
+{
+  "name": "rabbitmqindepth",
+  "version": "1.0.0",
+  "description": "Code I write while reading \"RabbitMQ In Depth\"",
+  "main": "main.ts",
+  "author": "siggi",
+  "license": "MIT",
+  "repository": "https://github.com/SiggiSch/rabbitmqindepth",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "start:watch": "tsc-watch --onSuccess \"node dist/main.js\""
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.13",
+    "@types/node": "^13.1.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "tsc-watch": "^4.0.0"
+  }
+}

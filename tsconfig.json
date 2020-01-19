@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    // "declaration": true,
+    // "removeComments": true,
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
+    // "noImplicitReturns": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist"
+    // "incremental": true,
+    // "esModuleInterop": true,
+    // "typeRoots": [
+    //   "./@types",
+    //   "./node_modules/@types"
+    // ],
+    // "plugins": [
+    //   { "transform": "ts-transformer-keys/transformer" },
+    //   { "transform": "ts-nameof", "type": "raw" }
+    // ]
+  }
+  // "exclude": [
+  //   "node_modules",
+  //   "dist",
+  //   "test",
+  //   "__testIntegration__",
+  //   "__mocks__",
+  //   "**/__mocks__"
+  // ]
+}
